@@ -1,0 +1,95 @@
+::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;}
+h1 {
+	text-align: center;
+	background-color: rgb(45, 111, 172);
+	color: rgb(255, 255, 255)
+}
+h2 {
+  margin: 10;
+  padding: 15px 0;
+  color: #0d4ace
+}
+h3 {
+  margin: 20;
+  background-color: rgb(62, 154, 190);
+	color: rgb(255, 255, 255)
+}
+p1 {
+	font-family: Verdana;
+	color: #212121;
+}
+p {
+	text-align:center;
+	font-family: Verdana;
+	color: #212121;
+}
+img {
+text-align:center;
+width : auto;
+height : 100px;
+}
+.scroll-bg {
+    background: white;
+    width : 805px;
+    margin: 1% auto;
+    border-radius: 5
+}
+.scroll-div {
+    width : 805px;
+    background-color: white;
+    height : 635px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+body {
+  width: 800px;
+  height: 905px;
+  margin: 10px auto;
+  background-color: white;
+  padding: 0 50px 20px 50px;
+  border: 5px solid rgb(45, 111, 172);
+  border-radius : 30px;
+  overflow: hidden;
+}
+html {
+    scroll-behavior: smooth;
+	  background-image: url("https://i.pinimg.com/originals/a5/68/06/a56806bce812d4ec85665792d83b809b.png");
+	  background-size: cover;
+    background-position: 0 1000px;
+    background-attachment: fixed;
+}
+.flotte {
+float:right;
+}
+button {
+  -webkit-appearance: none;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background : rgb(45, 111, 172);
+  color:#FFF
+}
+button.active {
+  background : rgb(25, 24, 133);
+  color:#FFF
+}
+.container {
+  position: absolute;
+  top:61%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width:880px;
+  height:685px;
+  background-color:white;
+  box-shadow: 0 0 10px rgb(25, 24, 133);
+  display : none;
+}
+.scroll-div::-webkit-scrollbar {
+  display: ;
+}
+.mTOP10 {
+  margin-top: 0px;
+}
